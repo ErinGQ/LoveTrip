@@ -19,8 +19,7 @@
 <br>---PHP后台：login.php
 <br>注册页面：register.html
 <br>---PHP后台：register.php
-
-<br><br>
+<br>
 <br>内容细节
 <br>（1）固定导航栏、返回头部、轮播图等基本动画
 <br>（2）登录、注册运用简单正则、cookie
