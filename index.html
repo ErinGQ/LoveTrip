@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/swiper.min.css" />
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/video-js.css" />
+	<script src='js/video.min.js'></script>
+	<script src="js/jquery.min.js"></script>
+	<script src='js/bootstrap.min.js'></script>
+	<script src='js/jquery-1.8.3.min.js'></script>
+	<script type="text/javascript" src="js/myPackage.js"></script>
+	
+</head>
+<body>
+	<!-- 导航Top -->
+		<div class="top" id="top">
+			<div class='navbar'>
+				<div class="navleft">
+					<span>客户端</span>
+					<span>|</span>
+					<span>手机版</span>
+					<span>|</span>
+					<span>收集工具</span>			
+				</div>
+				<div class="navright">
+					<span><a href="register.html">注册</a></span>
+					<span><a href="login.html">登录</a></span>
+					<span class="glyphicon glyphicon-envelope"></span>
+					<span class="glyphicon glyphicon-bullhorn"></span>
+					<img src="img/admin.jpg" alt="">
+					<span>吾爱旅行</span>
+				</div>
+			</div>
+		</div>
+		
+	<!-- 导航Fixed -->
+		<div class="nav" id="nav">
+			<div class="navfixed">
+			<a href="index.html">
+				<img src="img/logo.png" alt="">
+			</a>			
+			<div class="navneirong">
+				<span class="s1"><a href="waterfall_1.html">广播</a></span>
+				<span>|</span>
+				<span class="s1"><a href="./waterfall_2.html">发现</a></span>
+				<span class="s2"><a href="./article_list_2.html">文章</a></span>
+				<span class="s2"><a href="./waterfall_3.html">心情</a></span>
+				<span class="s2">|</span>
+				<span class="s1"><a href="./article_list_1.html">专辑</a></span>
+				<span class="s2"><a href="./article_list_3.html">生活</a></span>
+				<span class="s2"><a href="./hot_recommend.html">时尚</a></span>
+				<span class="s2"><a>兴趣</a></span>
+				<span>|</span>
+				<span class="s1"><a>Wiki</a></span>
+				<span>|</span>
+				<span class="s1"><a>小组</a></span>
+			</div>
+
+			<input type="text" placeholder="请输入要查询的内容">
+			<span class="glyphicon glyphicon-search fdj"></span>
+			
+		<!-- 音乐 -->
+			<div class="music">
+				<audio src="sound/water.mp3" controls="controls" autoplay="true" loop="true" style="width:80px;height:10px;margin:-20px 0 25px 1202px;"> 
+					您的浏览器不支持 audio 标签。
+	   			</audio>
+			</div>
+			
+		</div>
+	</div>
+<!-- 第二块	 -->
+	<div class="container">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-10">
+			<div class="col-sm-8">
+			<!-- 轮播图 -左边-->
+				<div class="swiper-container lbt">
+				    <div class="swiper-wrapper">
+				        <div class="swiper-slide">
+				        	<a href="#">
+				        		<img src="img/pic1.jpg" alt="" />
+				        	</a>
+				        </div>
+				        <div class="swiper-slide">
+				        	<a href="#">
+				        		<img src="img/pic2.jpg" alt="" />
+				        	</a>
+				        </div>
+				        <div class="swiper-slide">
+				        	<a href="#">
+				        		<img src="img/pic3.jpg" alt="" />
+				        	</a>
+				        </div>
+				        <div class="swiper-slide">
+				        	<a href="#">
+				        		<img src="img/pic4.jpg" alt="" />
+				        	</a>
+				        </div>
+				        <div class="swiper-slide">
+				        	<a href="#">
+				        		<img src="img/pic5.jpg" alt="" />
+				        	</a>
+				        </div>
+						<div class="swiper-slide">
+				        	<a href="#">
+				        		<img src="img/pic6.jpg" alt="" />
+				        	</a>
+				        </div>
+				        <div class="swiper-slide">
+				        	<a href="#">
+				        		<img src="img/pic7.jpg" alt="" />
+				        	</a>
+				        </div>
+				        <div class="swiper-slide">
+				        	<a href="#">
+				        		<img src="img/pic8.jpg" alt="" />
+				        	</a>
+				        </div>
+				        <div class="swiper-slide">
+				        	<a href="#">
+				        		<img src="img/pic9.jpg" alt="" />
+				        	</a>
+				        </div>
+				        <div class="swiper-slide">
+				        	<a href="#">
+				        		<img src="img/pic10.jpg" alt="" />
+				        	</a>
+				        </div>
+				    </div>
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <!-- <div class="swiper-pagination"></div> -->
+			    
+			    <!-- 如果需要滚动条 -->
+			    <div class="swiper-scrollbar"></div>
+
+			</div>
+			<!-- 热门推荐-右边 -->
+			<div class="col-sm-2 rmtj">
+				<h3>热门推荐</h3>
+				<hr>
+				<img src="img/img1.jpg" alt="">
+				<span><strong>标题：【普罗旺斯】</strong></span>
+      			 <p style="font-size:13px;">
+      			     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;普罗旺斯从诞生之日起，就谨慎地保守着她的秘密，天气阴晴不定，暖风和煦，海风狂野，地势跌宕起伏，平原广阔，峰岭险峻，寂寞的峡谷，苍凉的古堡，蜿蜒的山脉和活泼的都会，全都在这片法国的大地上演绎万种风情。
+      			     ​​​​
+      			 </p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="wrap">
+		<div class="col-md-2"></div>
+		<div class="col-md-10">
+			<div class="col-md-8">
+			<!-- 生活 -->
+				<div class="life imgdong">
+					<div class="zi">
+						<span>生活</span>
+						<a href="#">更多>></a>
+					</div>
+					<ul class="lifeimg">
+						<li>
+							<img src="img/img1.jpg" alt="">
+							<span>畅想生活</span>
+							<p>啦啦啦~</p>
+						</li>
+						<li>
+							<img src="img/img2.jpg" alt="">
+							<span>畅想生活</span>
+							<p>啦啦啦~</p>
+						</li>
+						<li>
+							<img src="img/img3.jpg" alt="">
+							<span>畅想生活</span>
+							<p>啦啦啦~</p>
+						</li>
+						<li>
+							<img src="img/img4.jpg" alt="">
+							<span>畅想生活</span>
+							<p>啦啦啦~</p>
+						</li>
+						<li>
+							<img src="img/img5.jpg" alt="">
+							<span>畅想生活</span>
+							<p>啦啦啦~</p>
+						</li>
+						<li>
+							<img src="img/img6.jpg" alt="">
+							<span>畅想生活</span>
+							<p>啦啦啦~</p>
+						</li>
+					</ul>
+				</div>
+				<br>
+			<!-- 时尚 -->
+				<div class="fashion imgdong">
+					<div class="zi">
+						<span>时尚</span>
+						<a href="#">更多>></a>
+					</div>
+					<ul class="lifeimg">
+						<li>
+							<img src="img/img7.jpg" alt="">
+							<span>我的时尚</span>
+							<p>你不懂~</p>
+						</li>
+						<li>
+							<img src="img/img8.jpg" alt="">
+							<span>我的时尚</span>
+							<p>你不懂~</p>
+						</li>
+						<li>
+							<img src="img/img9.jpg" alt="">
+							<span>我的时尚</span>
+							<p>你不懂~</p>
+						</li>
+						<li>
+							<img src="img/img10.jpg" alt="">
+							<span>我的时尚</span>
+							<p>你不懂~</p>
+						</li>
+						<li>
+							<img src="img/img11.jpg" alt="">
+							<span>我的时尚</span>
+							<p>你不懂~</p>
+						</li>
+						<li>
+							<img src="img/img12.jpg" alt="">
+							<span>我的时尚</span>
+							<p>你不懂~</p>
+						</li>
+					</ul>
+				</div>
+				<br>
+			<!-- 兴趣 -->
+				<div class="xingqu imgdong">
+					<div class="zi">
+						<span>兴趣</span>
+						<a href="#">更多>></a>
+					</div>
+					<ul class="lifeimg">
+						<li>
+							<img src="img/img13.jpg" alt="">
+							<span>你对我</span>
+							<p>感兴趣喵</p>
+						</li>
+						<li>
+							<img src="img/img14.jpg" alt="">
+							<span>你对我</span>
+							<p>感兴趣喵</p>
+						</li>
+						<li>
+							<img src="img/img15.jpg" alt="">
+							<span>你对我</span>
+							<p>感兴趣喵</p>
+						</li>
+						<li>
+							<img src="img/img16.jpg" alt="">
+							<span>你对我</span>
+							<p>感兴趣喵</p>
+						</li>
+						<li>
+							<img src="img/img17.jpg" alt="">
+							<span>你对我</span>
+							<p>感兴趣喵</p>
+						</li>
+						<li>
+							<img src="img/img18.jpg" alt="">
+							<span>你对我</span>
+							<p>感兴趣喵</p>
+						</li>
+					</ul>
+				</div>
+				<br>
+			<!-- 时尚 -->
+				<div class="fashion imgdong">
+					<div class="zi">
+						<span>时尚</span>
+						<a href="#">更多>></a>
+					</div>
+					<ul class="lifeimg">
+						<li>
+							<img src="img/img7.jpg" alt="">
+							<span>我的时尚</span>
+							<p>你不懂~</p>
+						</li>
+						<li>
+							<img src="img/img8.jpg" alt="">
+							<span>我的时尚</span>
+							<p>你不懂~</p>
+						</li>
+						<li>
+							<img src="img/img9.jpg" alt="">
+							<span>我的时尚</span>
+							<p>你不懂~</p>
+						</li>
+						<li>
+							<img src="img/img10.jpg" alt="">
+							<span>我的时尚</span>
+							<p>你不懂~</p>
+						</li>
+						<li>
+							<img src="img/img11.jpg" alt="">
+							<span>我的时尚</span>
+							<p>你不懂~</p>
+						</li>
+						<li>
+							<img src="img/img12.jpg" alt="">
+							<span>我的时尚</span>
+							<p>你不懂~</p>
+						</li>
+					</ul>
+				</div>
+				<br>
+			</div>
+			<div class="col-md-2">
+			<!-- 热门标签 -->
+				<div class="remenbiaoqian">
+					<div class="title">
+						<span>热门标签</span>
+						<img src="img/remenbiaoqian.jpg" alt="" class="rmimg">
+					</div>
+				</div>
+			<!-- 悟语 -->
+				<div class="wuyu">
+					<div class="title">
+						<span>悟语</span>
+						<a href="#">更多>></a>
+					<!-- 视频 -->
+						<div class="video">
+							<video width='190' height='150'  id="video" autoplay class='video-js vjs-big-play-centered vjs-default-skin' src="video/movie.mp4"  data-setup='{ }' controls>
+								<source src='video/movie.mp4'/>
+								<source src='video/movie.ogg'/>
+								<source src='video/movie.webm'/>
+								抱歉，您的游览器要换了！
+							</video>
+						</div>
+						<img src="img/img2.jpg" alt="">
+						</span>
+					</div>
+				</div>
+				<br>
+			<!-- 主题活动 -->
+				<div class="zhuti">
+					<div class="title">
+						<span>主题活动</span>
+						<a href="#">更多>></a>
+						<img src="img/zthddiv.jpg" alt="">
+					</div>
+				</div>
+				<br>
+			<!-- 旅行日志 -->
+				<div class="trav">
+					<div class="title">
+						<span>旅行日志</span>
+						<a href="#">更多>></a>
+						<ul>
+							<li class="li1">
+								<img src="img/arc1.jpg" alt="">
+								<div class="yuanxing">
+									<h5>远行，流浪！</h5>
+									<h5>推荐数：362</h5>
+								</div>
+								
+							</li>
+							<li>带着年轻的心去流浪</li>
+							<li>带着年轻的心去流浪</li>
+							<li>带着年轻的心去流浪</li>
+							<li>带着年轻的心去流浪</li>
+							<li>带着年轻的心去流浪</li>
+						</ul>
+					</div>
+				</div>
+				<br>
+			<!-- 活跃会员 -->
+				<div class="vip">
+					<div class="title">
+						<span>活跃会员</span>
+					</div>
+					<ul>
+						<li>
+							<img src="img/use1.jpg" alt="">
+							<div class="usenei">
+								<h5>作响_</h5>
+								<span>发布&nbsp;30&nbsp;专辑&nbsp;5</span>
+							</div>
+						</li>
+						<li>
+							<img src="img/use2.jpg" alt="">
+							<div class="usenei">
+								<h5>大媚子</h5>
+								<span>发布&nbsp;13&nbsp;专辑&nbsp;3</span>
+							</div>
+						</li>
+						<li>
+							<img src="img/use3.jpg" alt="">
+							<div class="usenei">
+								<h5>Honey米儿</h5>
+								<span>发布&nbsp;16&nbsp;专辑&nbsp;2</span>
+							</div>
+						</li>
+						<li>
+							<img src="img/use4.jpg" alt="">
+							<div class="usenei">
+								<h5>如茅挽君</h5>
+								<span>发布&nbsp;21&nbsp;专辑&nbsp;2</span>
+							</div>
+						</li>
+						<li>
+							<img src="img/use5.jpg" alt="">
+							<div class="usenei">
+								<h5>雪木其</h5>
+								<span>发布&nbsp;23&nbsp;专辑&nbsp;4</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<br>
+				<!-- 关注我们 -->
+				<div class="focus">
+					<div class="title">
+						<span>关注我们</span>
+						<ul>
+							<li class="sina"></li>
+							<li class="qq"></li>
+							<li class="tx"></li>
+							<li class="ren"></li>
+							<li class="qqkj"></li>
+							<li class="wx"></li>
+						</ul>
+						<div class="wximg">
+                			<img src="./img/weixin.png"/>
+               			</div>
+					</div>
+				</div>
+				<br>
+			</div>			
+		</div>	
+	</div>
+	<!-- 页脚 -->
+		<footer>
+			<p>版权所有&copy;爱旅行</p>
+		</footer>
+	
+	<a class="toTop"><span></span>返回顶部</a>
+	<a href="#" class="toModel"><span></span>意见反馈</a>
+<!-- js -->
+	<!-- 轮播图 -->
+	<script src='js/swiper.min.js'></script>
+	<!-- 固定导航栏 -->
+	<script type="text/javascript" src='js/myPackage.js'>
+		// <!-- 固定导航栏 -->
+	var Top = document.getElementById('top');
+	var topHeight = Top.offsetHeight;//top头部的高度,关键字
+	var nav = document.getElementById('nav');
+	//---监测屏幕滚动
+	window.onscroll = function(){
+		//---判断卷曲的高度
+		if(scroll().top > topHeight){
+			nav.className="fixed";
+		}else{
+			nav.className="";
+		}			
+	}
+
+	</script>
+	<script src='js/jquery-1.8.3.min.js'></script>
+	<script>
+	
+	$(window).scroll(function () {
+    	if($(document).scrollTop()>=$(".top").outerHeight()){
+    	    $(".nav").css({
+    	       position:"fixed",
+    	       top:'20px',
+    	       width:'100%',
+    	       zIndex:5
+    	    });
+    	}
+    	 if($(document).scrollTop()<$(".top").outerHeight()){
+    	     $(".nav").css({
+    	         position:"static"
+    	     });
+    	}
+    	 if($(document).scrollTop()>=500){
+    	     $(".toTop").css({
+    	        display:"block"
+    	     });
+    	     $(".toTop").on("click",function () {
+    	         $(window).scrollTop(0);
+    	     })
+    	}else{
+    	     $(".toTop").css({
+    	         display:"none"
+    	     });
+    	}
+	});
+	
+	$(function(){
+	// 图片导航动图
+		$('.imgdong li').hover(function(){
+			$(this).children('p').stop(true,true).animate({bottom:'0px'},250);
+		},function(){
+			$(this).children('p').stop(true,true).animate({bottom:'-60px'},250);
+		});
+
+	//---微信二维码 
+		$('.wx').hover(
+			function () {
+				$('.wximg').fadeIn(300);
+			},
+			function () {
+				return false;
+				}
+			);
+			$('.wximg').hover(
+				function () {
+					return false;
+				},
+				function () {
+					$('.wximg').fadeOut(300);
+				}
+			);
+		});
+
+	// 轮播图
+	var swiper = new Swiper('.swiper-container', {
+			loop:true,
+		    spaceBetween: 30,
+		    centeredSlides: true,
+		    autoplay: {
+		        delay: 2500,
+		        disableOnInteraction: false,
+		    },
+		    pagination: {
+		        el: '.swiper-pagination',
+		        clickable: true,
+		    },
+		    navigation: {
+		        nextEl: '.swiper-button-next',
+		        prevEl: '.swiper-button-prev',
+		    },
+   		 });
+
+	</script>
+
+	<script>
+	// 双击全屏
+		var video = $('#video')[0];
+		FullOrCallScreen(video);
+		function FullOrCallScreen(element){
+		    var count = 0;
+		    element.addEventListener("dblclick",function(){
+		        if(count % 2 == 0){
+		            requestFullScreen(element);
+		        }else{
+		            cancelFullScreen(document);
+		        }
+		        count++;
+		    },false);
+		}
+		function requestFullScreen(element) {
+		    var requestMethod=element.requestFullScreen||element.		webkitRequestFullScreen || element.mozRequestFullScreen || element.		msRequestFullScreen;
+		    if (requestMethod){
+		        requestMethod.call(element);
+		    }else if(typeof window.ActiveXObject !== "undefined"){
+		        //---创建WshShell对象运行程序、操作注册表、创建快捷方式、访问系统文件		夹、管理环境变量。
+		        var wscript = new ActiveXObject("WScript.Shell");
+		        if (wscript !== null) {
+		            wscript.SendKeys("{F11}");//---F11键是全屏
+		        }
+		    }
+		}
+		function cancelFullScreen(element) {
+		    var  cancelMethod = element.cancelFullScreen || element.		webkitCancelFullScreen || element.mozCancelFullScreen || element.		msCancelFullScreen;
+		    if (cancelMethod){
+		        cancelMethod.call(element);
+		    }else if(typeof window.ActiveXObject !== "undefined"){
+		        //---创建WshShell对象可以运行程序、操作注册表、创建快捷方式、访问系统		文件夹、管理环境变量。
+		        var wscript = new ActiveXObject("WScript.Shell");
+		        if (wscript !== null){
+		            wscript.SendKeys("{F11}");
+		        }
+		    }
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+body{
+	background: url(../img/bg.jpg);
+}
+.bjtj{
+	width: 720px;
+	height: 1250px;
+	margin:0 0 0 -15px;
+	background: #fff;
+}
+.bjtj h4{
+	padding:10px 10px 5px 10px;
+	font-weight: bold;
+}
+.bjtj .lv{
+	text-align: center;
+	margin:0 auto;
+}
+.bjtj .lv li{
+	float: left;
+	width: 230px;
+	height: 200px;
+	margin:5px;
+}
+.bjtj .lv li img{
+	width: 225px;
+	height: 150px;
+}
+.bjtj .lv li p{
+	margin:5px auto;
+	font-size: 12px;
+}
+.sun{
+	border-bottom: 1px dashed lightgray;
+}
+.sun img{
+	width: 250px;
+	height: 160px;
+	margin:10px;
+}
+.sun h5{
+	font-weight: bold;
+}
+.sun .naxienian{
+	margin:-158px 0 0 274px;
+	width: 440px;
+	height:150px;
+}
+.pagination{
+	margin:8px 0 12px 8px;
+}
+
+/*右边*/
+.rmtj2{
+	width: 220px;
+	height: auto;
+}
+.rmtj2 .icon{
+	width: 220px;
+	height: 60px;
+	margin:10px auto;
+	background: #fff;
+}
+.rmtj2 .icon li{
+	float:left;
+	width: 40px;
+	height: 40px;
+	margin:10px 2px;
+	border:1px solid lightskyblue;
+	border-radius: 5px;
+	box-shadow: 2px 2px 1px #888888;
+	background: url(../img/sites.png);
+}
+.rmtj2 .icon .icon1{
+	background-position: -147px -147px;
+}
+.rmtj2 .icon .icon2{
+	background-position: -37px -6px;
+}
+.rmtj2 .icon .icon3{
+	background-position: -35px -76px;
+}
+.rmtj2 .icon .icon4{
+	background-position: -35px 64px;
+}
+.rmtj2 .icon .icon5{
+	background-position: -37px -147px;
+}
+.rec{
+	width: 220px;
+	height: 280px;
+	background: #fff;
+}
+.rec .jz{
+	font-weight: bold;
+	border-bottom: 1px solid lightgray;
+	margin-bottom: 10px;
+}
+.rec li{
+	margin:0px auto;
+	width: 210px;
+	height: 36px;
+	line-height: 36px;
+	padding-left: 5px;
+	border-bottom: 1px dashed lightgray;
+}
+.footer{
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	/*border-top:1px solid gray;*/
+	/*border:1px solid red;*/
+	font-size: 12px;
+
+}
+.footer p{
+	font-size: 12px;
+	margin-top: 20px;
+}
